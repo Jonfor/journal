@@ -1,0 +1,88 @@
+@font-face {
+    font-family: 'Goudy Old Style';
+    src: url('./Goudy Old Style Regular.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'J D';
+    src: url('./j.d.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Rollerscript-Smooth';
+    src: url('./Rollerscript-Smooth.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'SuomiHand-Script';
+    src: url('./SuomiHand-Script.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    margin: 0 auto;
+    max-width: 100rem;
+    line-height: 1.5;
+    padding: 4rem;
+    background: url(background.jpg);
+    background-size: cover;
+}
+
+.suomi {
+    font-family: "SuomiHand-Script";
+    font-weight: bolder;
+    font-size: 4rem;
+    color: #4f230c;
+}
+
+.roller {
+    font-family: "Rollerscript-Smooth";
+    font-weight: bolder;
+    font-size: 4rem;
+    color: #4f230c;
+}
+
+.title {
+    font-size: 4rem;
+}
+
+.date {
+    float: right;
+    font-size: 2rem;
+    font-style: italic;
+}
+
+.body-text {
+    font-size: 3rem;
+}
+
+.text {
+    font-family: "J D";
+    color: #4f230c;
+    line-height: 1.1;
+}
+
+.bloodstain-1 {
+    position: absolute;
+    filter: hue-rotate(26deg);
+    top: 18%;
+    right: 50%;
+}
+
+.light-fade-1 {
+    background-image: -webkit-linear-gradient(left, #4f230c, #585858, #4f230c); /* For Chrome and Safari */
+    background-image:    -moz-linear-gradient(left, #4f230c, #585858, #4f230c); /* For old Fx (3.6 to 15) */
+    background-image:     -ms-linear-gradient(left, #4f230c, #585858, #4f230c); /* For pre-releases of IE 10*/
+    background-image:      -o-linear-gradient(left, #4f230c, #585858, #4f230c); /* For old Opera (11.1 to 12.0) */
+    background-image:         linear-gradient(to right, #4f230c, #5e321c, #4f230c); /* Standard syntax; must be last */
+    color:transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+}
