@@ -26,6 +26,11 @@
     font-style: normal;
 }
 
+p {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
 body {
     margin: 0 auto;
     max-width: 100rem;
@@ -35,38 +40,27 @@ body {
     background-size: cover;
 }
 
-.suomi {
-    font-family: "SuomiHand-Script";
-    font-weight: bolder;
-    font-size: 4rem;
-    color: #4f230c;
+.top-text-container {
+    display: flex;
+    align-items: center;
+    height: 45px;
+    justify-content: space-between;
 }
 
-.roller {
-    font-family: "Rollerscript-Smooth";
-    font-weight: bolder;
-    font-size: 4rem;
-    color: #4f230c;
-}
-
-.title {
-    font-size: 4rem;
+.text-center {
+    text-align: center;
 }
 
 .date {
-    float: right;
-    font-size: 2rem;
+    font-size: 1.7rem;
     font-style: italic;
 }
 
 .body-text {
-    font-size: 3rem;
-}
-
-.text {
+    font-size: 2rem;
     font-family: "J D";
     color: #4f230c;
-    line-height: 1.1;
+    line-height: 1.3;
 }
 
 .bloodstain-1 {
@@ -77,12 +71,17 @@ body {
 }
 
 .light-fade-1 {
-    background-image: -webkit-linear-gradient(left, #4f230c, #585858, #4f230c); /* For Chrome and Safari */
-    background-image:    -moz-linear-gradient(left, #4f230c, #585858, #4f230c); /* For old Fx (3.6 to 15) */
-    background-image:     -ms-linear-gradient(left, #4f230c, #585858, #4f230c); /* For pre-releases of IE 10*/
-    background-image:      -o-linear-gradient(left, #4f230c, #585858, #4f230c); /* For old Opera (11.1 to 12.0) */
-    background-image:         linear-gradient(to right, #4f230c, #5e321c, #4f230c); /* Standard syntax; must be last */
+    background-image: linear-gradient(to right, #0B0B0CFF, #3A3737FF, #0B0B0CFF); /* Standard syntax; must be last */
     color:transparent;
     -webkit-background-clip: text;
     background-clip: text;
+}
+
+.strikethrough {
+    text-decoration: line-through;
+    color:#0B0B0CFF;
+}
+
+#forever {
+    color: #000000FF;
 }
